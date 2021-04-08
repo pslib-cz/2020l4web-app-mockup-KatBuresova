@@ -1,0 +1,150 @@
+html {
+    background-color: #F0EFEC;
+    
+}
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: "Source Sans Pro";
+    color: #C19C83;
+    padding: 0;
+}
+.loading a{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.load {
+    height: 40px;
+    width: auto;
+    animation: rotate  3s linear infinite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hory{
+    width: 100vW;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+}
+.load-h1{
+    padding-top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    margin-top: 20px;
+}
+header img{
+    margin-top: 20px;
+    height: 20px;
+    width: auto;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+article{
+    margin: 20px;
+}
+article div {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.prvni {
+    border: 1px solid #132E57;
+    border-radius: 10px;
+    color: #132E57;
+}
+.druhy {
+    border: 1px solid #91532B;
+    border-radius: 10px;
+    color: #91532B;
+}
+.treti {
+    border: 1px solid #C19C83;
+    border-radius: 10px;
+    color: #C19C83;
+}
+.plus{
+    width: 30px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.plussc{
+    width: 30px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    visibility: hidden;
+    
+}
+.horysm{
+    width: 50VW;
+    margin: 0 auto;
+}
+.firstdream{
+    color: #132E57;
+}
+.firstdream h2{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+h2{
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.schovano{
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-top: 5px;
+
+}
+.kdykde{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    justify-content: center;
+    
+}
+.kdykde img{
+    height: 23px;
+    width: auto;
+}
+hr{
+
+    align-items: center;
+}
+.milniky-nadpis{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.milniky-nadpis  h3{
+    margin-left: 10px;
+}
